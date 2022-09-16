@@ -1,0 +1,35 @@
+/* 顶部导航栏样式 */
+.header{
+    height: 45px;
+    background-color: #f5f6f5;
+    padding: 0 10px;
+}
+
+/* 覆盖searchHeader组件的样式 */
+.searchHeader{
+    position: relative;
+    top: 0;
+}
+/* 左侧小箭头 */
+.header :global(.icon-back){
+    font-size: 16px;
+    color: #999;
+}
+/* 右侧图标 */
+.header :global(.icon-map){
+    color: #00ae66;
+    font-size: 25px !important;
+}
+/* search输入框 */
+.header :global(.search){
+    height: 30px;
+}
+/* 房屋列表样式 */
+.houseItems{
+    padding: 0px 15px;
+}
+.loading{
+    height: 110px;
+    line-height: 120px;
+    background-color: #f6f5f6;
+}

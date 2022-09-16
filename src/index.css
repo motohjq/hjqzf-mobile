@@ -1,0 +1,38 @@
+html,
+body{
+  height: 100%;
+  font-family: 'Microsoft YaHei';
+  color: #333;
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+*{
+  box-sizing: border-box;
+  /* 去除轮播图Chrome浏览器的错误警告 */
+  touch-action: pan-y;
+}
+h1,
+h2,
+h3,
+ul,
+p,
+dd{
+  margin: 0;
+}
+
+ul{
+  list-style: none;
+}
+
+
+html,
+body,
+#root,
+.App{
+  height: 100%;
+}
+.body-fixed{
+  overflow: hidden;
+}
